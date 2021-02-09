@@ -73,7 +73,7 @@
 
 
   }
-  
+  /* responsive-nav-bar */
   @media screen and (max-width:375px){
     .nav-links{
      
@@ -132,55 +132,49 @@
   transform: rotate(45deg) translate(-6px, -15px);
 } 
 
-
+/* body */
+/* first-party */
 .first-party{
   background-color: var(--darck-bleu-color);
   margin: 2%;
   border-radius: 15px;
 }
-.card-one{
+.first-party-card{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.first-img{
-  width: 200%;
-  padding-right: 100%;
+.left-text{
+  width: 50%;
+
 }
-.ytg{
+.small-title{
   color: var(--darck-pink-color) ;
   font-size: 25px;
   margin: 30px ;
   padding-left: 8%;
 }
-.lmy{
+.big-title{
   color: var(--bleu-text-color);
   font-size: 60px;
   margin: 30px ;
   padding-left: 8%;
 }
-.yut{
+.first-party-text-three{
   color:var(--bleu-text-color) ;
   font-size: 20px;
   margin: 30px ;
   padding-left: 8%;
 }
-.button {
-  text-decoration: none;
-  padding: 10px 32px;
-  font-size: 14px;
-  border-radius: 5px;
 
-
-}
-.card-one-btn{
+.first-party-btn{
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 30px ;
   padding-left: 8%;
 }
-.card-one-links{
+.first-party-links{
   display: flex;
   align-items: center;
   gap: 50px;
@@ -190,32 +184,42 @@
 .links{
   text-decoration: none;
 }
-.left{
-  width: 50%;
-
+.first-party-img-one{
+  width: 200%;
+  padding-right: 100%;
 }
-.right{
-  width: 50%;
-}
-.le{
+.first-party-btn-one{
   background-color: var(--darck-pink-color);
   color: var(--white-color);
   border: 1px ridge var(--darck-pink-color);
 }
-.pv{
+.first-party-btn-two{
   background-color:var(--darck-bleu-color) ;
   border: 1px ridge var(--bleu-text-color);
 
 }
-.transp{
+.first-party-text-transp
+
+
+{
   padding-bottom: 0;
   font-size: 150px;
   color: var(--darck-bleu-color);
   -webkit-text-stroke: 1px var(--bleu-text-color);
 }
-.second-party{
+/* second-party */
+
+.second-card-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.second-party-card{
   background-color: #f7fcff ;
 }
+
 .performances{
   display: flex;
   flex-direction: column;
@@ -232,49 +236,39 @@
   align-items: center;
   gap: 90px;
 }
-.lwla{
+.second-party-performance-one{
   padding-top: 80px;
 }
-.taniya{
+.second-party-performance-two{
   background-color: var(--darck-pink-color);
   color: var(--white-color) !important;
   border-radius:15px ;
   
 }
-.talta{
+.second-party-performance-three{
   padding-top: 80px;
 }
-.title-one{
+.title{
   font-size: 30px;
   color: var(--bleu-text-color);
 }
-.text-one{
+.text{
   font-size: 20px;
   color: var(--bleu-text-color);
 }
-.second-card-head{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+.white-text{
+  color: white;
 }
-.card-nm{
-  color: var(--darck-pink-color);
-  font-size: 25px;
-}
-.card-title{
-  color: var(--bleu-text-color);
-  font-size: 50px;
-}
-.terd-card{
+/* third-party */
+
+.third-party{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5%;
 }
-.terd-card-image{
-  width: 800px;
+.third-party-img{
+  width:800px;
   height: auto;
   
 
@@ -285,7 +279,7 @@
   align-items: center;
   gap: 20px;
 }
-.terd-card-right{
+.terd-card-text{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -300,4 +294,60 @@
   background-color: var(--low-pink-color) !important;
   margin: 2%;
   border-radius: 15px;
+}
+.image-part-four{
+  width: 100%;
+}
+.party-five{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.final-party{
+  background-color: #94e9fe;
+  border-radius: 15px;
+  height: max-content;
+  padding-bottom: 50px;
+}
+
+.fourth-party-img{
+  width: 800px; 
+}
+.final-party-img{
+  width: 600px;
+}
+.final-party-text{
+  width: 100%;
+}
+.seven-party{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  padding-left: 15%;
+}
+
+.links{
+  font-size: 15px;
+}
+.seven-party-first-links{
+  width: 20%;
+}
+.seven-party-second-links{
+  width: 20%;
+}
+.seven-party-therd-links{
+  width: 20%;
+}
+.seven-party-fourth-links{
+  width: 60%;
+}
+/* functions */
+.button {
+  text-decoration: none;
+  padding: 15px 60px;
+  font-size: 20px;
+  border-radius: 5px;
 }
